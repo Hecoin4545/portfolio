@@ -1,0 +1,20 @@
+.main-achievement-section {
+    margin: 20px 0px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #f5b82a;
+    font-size: 49px;
+}
+
+.skills-sec {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.skills-sec img {
+    width: 11rem;
+}

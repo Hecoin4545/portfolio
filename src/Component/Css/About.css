@@ -1,0 +1,109 @@
+.quote {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.quote h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.color-m {
+    color: #f5b82a;
+}
+
+.about-me {
+    width: 80%;
+    margin: auto;
+    margin-top: 17px;
+    display: flex;
+}
+
+.left-sec {
+    width: 100%;
+    position: relative;
+    top: 3px;
+}
+
+.left-sec p {
+    letter-spacing: 0.5px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.right-sec {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-sec img {
+    width: 21rem;
+    height: 28rem;
+    position: relative;
+    bottom: 4px;
+    border-radius: 3px;
+}
+
+
+.box-button {
+    margin-top: 12px;
+}
+
+.link-ab {
+    margin-right: 6px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    padding: 7px 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.light-br {
+    color: rgb(232 255 190 / 53%);
+}
+
+.color-pu {
+    color: #f5b82a;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .quote {
+        margin-top: 4rem;
+    }
+
+    .right-sec {
+        display: none;
+    }
+
+    .box-button {
+        margin-top: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .left-sec p {
+
+        font-size: 17px;
+    }
+
+    .quote h1 {
+        font-size: 32px;
+    }
+
+    .left-sec {
+        width: 100%;
+    }
+
+    .about-me {
+        width: 94%;
+    }
+}
